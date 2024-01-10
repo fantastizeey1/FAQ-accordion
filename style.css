@@ -217,25 +217,27 @@ text-align: left;
         flex-direction: row;
         margin-top: -70px;
     }
-    .q1 h2,
+   .q1 h2,
     .q2 h2,
     .q3 h2,
     .q4 h2{
-    font-size: 18px;
-    margin-top: 10PX;
+    font-size: 4vw;
+    margin: 0;
+    
 }
 .q1 img,
 .q2 img,
 .q3 img,
 .q4 img{
-    margin-top: 20px;
+    margin-top: 10px;
 }
-    .q1 p,
+.q1 p,
 .q2 p,
 .q3 p,
 .q4 p{
+    margin-top: 0;
     margin-bottom: 5px;
-    font-size: 12px;
+    font-size: 3.2vw;
     font-weight: 400;
 }
 .q1, .q2, .q3, .q4{
