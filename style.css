@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-image: url('/assets/images/background-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(275, 100%, 97%);
+    background-size: 100vw 250px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+main{
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 25%;
+    padding: 20px;
+    border-radius: 15px;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    font-weight: 700;
+}
+.heading img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.q1 hr,
+.q2 hr,
+.q3 hr,
+.q4 hr{
+    border-top: 1px solid hsl(291, 41%, 93%);
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+}
+.q1 h2:hover,
+.q2 h2:hover,
+.q3 h2:hover,
+.q4 h2:hover{
+    color: hsl(292, 81%, 42%);
+}
+.q1{
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.q1 button{
+background-color: transparent;
+border: transparent;
+text-decoration: none;
+flex-direction: row;
+width: 80%;
+text-align: left;
+}
+.q1 img{
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin: 5px;
+}
+
+.q1 h2{
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 600;
+    color: hsl(292, 42%, 14%);
+}
+.q1 p{
+    font-size: 13px;
+    padding: 5px;
+    font-weight: 400;
+    color: hsl(292, 16%, 49%);
+    margin: 10px auto;
+    line-height: 20px;
+}
+.q1 .minus{
+    display: block;
+    
+}
+.q1 .plus{
+    display: none;
+}
+.q2{
+    margin: 10px 0;
+}
+.q2 button{
+    background-color: transparent;
+    border: transparent;
+    text-decoration: none;
+    flex-direction: row;
+    width: 80%;
+    text-align: left;
+}
+.q2 img{
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin: 5px;
+}
+    
+.q2 h2{
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 600;
+    color: hsl(292, 42%, 14%);
+}
+    .q2 p{
+        font-size: 13px;
+        padding: 5px;
+        font-weight: 400;
+        color: hsl(292, 16%, 49%);
+        display: none;
+    }
+    .q2 .minus{
+        display: none;
+    }
+.q3{
+    margin: 10px 0;
+ }
+    .q3 button{
+        background-color: transparent;
+        border: transparent;
+        text-decoration: none;
+        flex-direction: row;
+        width: 80%;
+        text-align: left;
+        
+    }
+        .q3 img{
+            width: 15px;
+            height: 15px;
+            float: right;
+            margin: 5px;
+        }
+        
+        .q3 h2{
+            font-size: 15px;
+            padding: 5px;
+            font-weight: 600;
+            color: hsl(292, 42%, 14%);
+        }
+        .q3 p{
+            font-size: 13px;
+            padding: 5px;
+            font-weight: 400;
+            color: hsl(292, 16%, 49%);
+            display: none;
+        }
+        .q3 .minus{
+            display: none;
+        }
+.q4{
+    margin: 10px 0;
+}
+.q4 button{
+            background-color: transparent;
+            border: transparent;
+            text-decoration: none;
+            flex-direction: row;
+            width: 80%;
+            text-align: left;
+            }
+            .q4 img{
+                width: 15px;
+                height: 15px;
+                float: right;
+                margin: 5px;
+            }
+            
+            .q4 h2{
+                font-size: 15px;
+                padding: 5px;
+                font-weight: 600;
+                color: hsl(292, 42%, 14%);
+            }
+            .q4 p{
+                font-size: 13px;
+                padding: 5px;
+                font-weight: 400;
+                color: hsl(292, 16%, 49%);
+                display: none;
+            }
+            .q4 .minus{
+                display: none;
+            }
+@media (max-width: 500px) {
+    body{
+        background-image: url('/assets/images/background-pattern-mobile.svg');
+        max-width: 100vw;
+    }
+    main{
+        min-width: 80%;
+        height: 70vh;
+        top: 15%;
+        position: absolute;
+        padding: 10px;
+        border-radius: 15px;
+        margin: 0;
+    }
+    .heading{
+        flex-direction: row;
+        margin-top: -100px;
+    }
+    .q1 h2,
+    .q2 h2,
+    .q3 h2,
+    .q4 h2{
+    font-size: 18px;
+    margin-top: 15PX;
+}
+.q1 img,
+.q2 img,
+.q3 img,
+.q4 img{
+    margin-top: 25px;
+}
+}
