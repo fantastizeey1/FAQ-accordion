@@ -19,18 +19,18 @@ buttons.forEach((button) => {
     const otherButtons = Array.from(buttons).filter((btn) => btn !== this);
     otherButtons.forEach((btn) => {
       btn.classList.remove('active');
-      btn.nextElementSibling.src = '/assets/images/icon-plus.svg';
+      btn.nextElementSibling.src = 'icon-plus.svg';
     });
 
     // Toggle the visibility of the paragraph
     if (paragraph.style.display === 'none' || paragraph.style.display === '') {
       paragraph.style.display = 'block';
       this.classList.add('active');
-      this.nextElementSibling.src = '/assets/images/icon-minus.svg'; // Change the image to minus
+      this.nextElementSibling.src = 'icon-minus.svg'; // Change the image to minus
     } else {
       paragraph.style.display = 'none';
       this.classList.remove('active');
-      this.nextElementSibling.src = '/assets/images/icon-plus.svg'; // Change the image to plus
+      this.nextElementSibling.src = 'icon-plus.svg'; // Change the image to plus
     }
   });
 });
