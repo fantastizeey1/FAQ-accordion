@@ -206,7 +206,7 @@ text-align: left;
     }
     main{
         min-width: 80%;
-        height: 70vh;
+        height: 80vh;
         top: 15%;
         position: absolute;
         padding: 10px;
@@ -215,19 +215,30 @@ text-align: left;
     }
     .heading{
         flex-direction: row;
-        margin-top: -100px;
+        margin-top: -70px;
     }
     .q1 h2,
     .q2 h2,
     .q3 h2,
     .q4 h2{
     font-size: 18px;
-    margin-top: 15PX;
+    margin-top: 10PX;
 }
 .q1 img,
 .q2 img,
 .q3 img,
 .q4 img{
-    margin-top: 25px;
+    margin-top: 20px;
+}
+    .q1 p,
+.q2 p,
+.q3 p,
+.q4 p{
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.q1, .q2, .q3, .q4{
+    margin: 0;
 }
 }
